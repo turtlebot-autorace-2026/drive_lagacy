@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2026-10-25T00:00:00Z</created>
+    <modified>2026-10-25T00:00:00Z</modified>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="lanes">
+      <init_from>../materials/textures/course_surface.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="effect0">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0 0 1</color>
+            </diffuse>
+            <specular>
+              <color>0.034965959415691715 0.034965959415691715 0.034965959415691715 1</color>
+            </specular>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <shininess>
+              <float>8</float>
+            </shininess>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect1">
+      <profile_COMMON>
+        <newparam sid="surface">
+          <surface type="2D">
+            <init_from>lanes</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="sampler">
+          <sampler2D>
+            <source>surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>1 1 1 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="sampler" texcoord="UVMap" />
+            </diffuse>
+            <specular>
+              <color>0.034965959415691715 0.034965959415691715 0.034965959415691715 1</color>
+            </specular>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <shininess>
+              <float>8</float>
+            </shininess>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="mat0">
+      <instance_effect url="#effect0" />
+    </material>
+    <material id="mat1">
+      <instance_effect url="#effect1" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geometry">
+      <mesh>
+        <source id="positions">
+          <float_array id="positions-array" count="24">0.5 -0.4995 0 0.5 0.5 0 -0.4995 0.5 0 -0.4995 -0.4995 0 0.5 -0.4995 0.03 0.5 0.5 0.03 -0.4995 0.5 0.03 -0.4995 -0.4995 0.03</float_array>
+          <technique_common>
+            <accessor source="#positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="uv">
+          <float_array id="uv-array" count="16">1.0 0.7501249999999999 1.0 1.0 0.7501249999999999 1.0 0.7501249999999999 0.7501249999999999 1.0 0.7501249999999999 1.0 1.0 0.7501249999999999 1.0 0.7501249999999999 0.7501249999999999</float_array>
+          <technique_common>
+            <accessor source="#uv-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="vertices-face-normals">
+          <float_array id="vertices-face-normals-array" count="36">0 0 -1 -0 -0 -1 1 0 0 1 0 0 0 1 0 0 1 -0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 0 1 -0 0 1</float_array>
+          <technique_common>
+            <accessor source="#vertices-face-normals-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vertices">
+          <input semantic="POSITION" source="#positions" />
+        </vertices>
+        <triangles count="10" material="mat0">
+          <input semantic="VERTEX" source="#vertices" offset="0" />
+          <input semantic="TEXCOORD" source="#uv" offset="1" set="0" />
+          <input semantic="NORMAL" source="#vertices-face-normals" offset="2" />
+          <p>0 0 0 3 3 0 2 2 0 1 1 1 0 0 1 2 2 1 0 0 2 1 1 2 5 5 2 0 0 3 5 5 3 4 4 3 1 1 4 2 2 4 6 6 4 1 1 5 6 6 5 5 5 5 2 2 6 3 3 6 7 7 6 2 2 7 7 7 7 6 6 7 3 3 8 0 0 8 4 4 8 3 3 9 4 4 9 7 7 9</p>
+        </triangles>
+        <triangles count="2" material="mat1">
+          <input semantic="VERTEX" source="#vertices" offset="0" />
+          <input semantic="TEXCOORD" source="#uv" offset="1" set="0" />
+          <input semantic="NORMAL" source="#vertices-face-normals" offset="2" />
+          <p>6 6 10 7 7 10 4 4 10 6 6 11 4 4 11 5 5 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene">
+      <node id="Object">
+        <instance_geometry url="#geometry">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mat0" target="#mat0">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+              <instance_material symbol="mat1" target="#mat1">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

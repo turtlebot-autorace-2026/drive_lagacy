@@ -1,0 +1,39 @@
+# AutoRace v014 race manager settings.
+#
+# Values marked [RULE] come from official_rules_20261025.pdf p.3 (race_contract.json v012).
+# Values marked [RUNTIME] are NOT specified by the rules (null in race_contract.json).
+# They are explicit test settings chosen here; change them freely, but do not report them
+# as official values. A negative value means "unset" and the node refuses to start.
+race_manager:
+  ros__parameters:
+    use_sim_time: true
+
+    # Traffic light: red -> yellow -> green, repeating.
+    light_red_duration_s: 3.0          # [RUNTIME] rules: unspecified
+    light_yellow_duration_s: 1.0       # [RUNTIME] rules: unspecified
+    light_green_duration_s: 5.0        # [RULE] green stays on 5 s
+    light_initial_delay_s: 0.0         # [RUNTIME] extra red time before the first cycle
+    # Race timer starts at the first green even if the robot has not moved [RULE];
+    # later greens never restart it [RULE].
+
+    # Intersection: random left/right after mission start, held until reset.
+    intersection_seed: -1              # [RUNTIME] -1 = draw a seed from the clock (logged)
+    intersection_reseed_on_reset: false  # false = same seed after reset -> same choice
+    intersection_probability_left: 0.5   # [RUNTIME] rules: unspecified
+    intersection_selection_delay_s: 0.0  # [RUNTIME] delay after first green, rules: unspecified
+
+    # Barrier: S1 requests lowering [RULE]; S2 while lowered = failure [RULE].
+    # S2 never opens the bar [RULE].
+    barrier_open_policy: delay_after_lowered   # [RUNTIME] delay_after_lowered | manual
+    barrier_open_delay_s: 3.0                  # [RUNTIME] rules: unspecified
+    barrier_lowered_threshold_rad: 0.05        # [RUNTIME] arm angle below this = lowered (0 = closed)
+    barrier_s2_fails_while_closing: true       # [RUNTIME] judge S2 during the closing motion too
+
+    # Start line: judged when the robot body first touches (enter) or fully leaves (exit)
+    # the start line region.
+    start_line_judge_on: enter         # [RUNTIME] enter | exit
+
+    # Reset: also call Gazebo /reset_world (robot back to spawn pose, devices to defaults).
+    reset_world_on_reset: true
+
+    log_dir: "~/.ros/autorace_logs"

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<sdf version="1.7"><model name="autorace_traffic_noentry_v014"><static>true</static><link name="sign"><visual name="visual"><geometry><mesh><uri>model://autorace_traffic_noentry_v014/meshes/visual.dae</uri></mesh></geometry></visual><collision name="collision"><geometry><mesh><uri>model://autorace_traffic_noentry_v014/meshes/collision.dae</uri></mesh></geometry></collision></link></model></sdf>

@@ -1,0 +1,59 @@
+{
+  "nominal_model_origin_height_m": 0.01,
+  "reference_bag": "bag_11_4_all (2026-11-04), 150.304 s",
+  "cameras": [
+    {
+      "name": "camera",
+      "xyz_from_model_m": [
+        0.076,
+        0,
+        0.125
+      ],
+      "rpy_deg": [
+        0,
+        31.6,
+        2.26
+      ],
+      "width": 640,
+      "height": 480,
+      "rate_hz": 15,
+      "fx": 426.35573567734764,
+      "fy": 536.586854761853,
+      "cx": 324.8600291374037,
+      "cy": 287.5060084294638,
+      "evidence": "Height 135 mm measured by user; pitch from straight-lane vanishing point within measured 30-35 deg. Intrinsics reproduce local camera_ros undistortion/ROI/resize in the bag. Forward offset and yaw retained from the original simulation; not independently measured."
+    },
+    {
+      "name": "camera2",
+      "xyz_from_model_m": [
+        -0.032,
+        -0.057,
+        0.171
+      ],
+      "rpy_deg": [
+        0,
+        0.8,
+        5.2
+      ],
+      "width": 640,
+      "height": 480,
+      "rate_hz": 30,
+      "fx": 381.3611496301472,
+      "fy": 335.0794567138672,
+      "cx": 320.0,
+      "cy": 240.0,
+      "evidence": "Temporary simulation-only 80 deg horizontal FOV workaround requested 2026-11-11 after intersection visibility diagnosis. Both focal lengths scaled equally to preserve image proportions. Mount pose remains provisional from lidar height/right-side mounting and bag framing; these intrinsics are not measured hardware calibration.",
+      "temporary_fov_override": {
+        "date": "2026-11-11",
+        "horizontal_fov_deg": 80.0,
+        "previous_bag_estimate": {
+          "fx": 1030.0,
+          "fy": 905.0,
+          "cx": 320.0,
+          "cy": 240.0,
+          "evidence": "Provisional: user reports lidar height and right-side mounting. Lidar height 181 mm / x=-32 mm from the robot model; right offset and near-horizontal view approximated from initial bag ground lines/bend transitions. Intrinsics are a ground-plane framing fit, not checkerboard calibration; do not treat them as measured hardware values."
+        }
+      }
+    }
+  ]
+}

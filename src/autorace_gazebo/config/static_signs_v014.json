@@ -1,0 +1,814 @@
+{
+  "source_blend": "autorace_mcp_v014_mission_devices.blend",
+  "source_sha256": "d8f46bbba94f581b6eed995e8493a2146820cf689adfacab4abac7e20528cd85",
+  "blender_version": "5.0.1",
+  "map_position_scale": 1.145374449339207,
+  "sign_geometry_scale": 1.0,
+  "collision_policy": "Static triangle mesh of visible plate, post, socket and base",
+  "signs": {
+    "traffic_construction": {
+      "model": "autorace_traffic_construction_v014",
+      "pose": "1.145374 0.045815 0.125000 0.000000 -0.000000 -1.570796",
+      "source_plate_matrix_world": [
+        [
+          7.549789415861596e-08,
+          0.9999998807907104,
+          0.0,
+          1.0
+        ],
+        [
+          -0.9999998807907104,
+          7.549789415861596e-08,
+          0.0,
+          0.03999998793005943
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.125,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.059359426549384954,
+          -0.0139999974122181,
+          -0.125
+        ],
+        [
+          0.05850534240274634,
+          0.012500003206180502,
+          0.12200980633497238
+        ]
+      ],
+      "front_normal_local": [
+        -5.070922384708427e-05,
+        -0.9999999987087071,
+        3.340680186971172e-06
+      ],
+      "parts": [
+        {
+          "name": "traffic_construction__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_construction__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__Plate_v006",
+          "vertices_evaluated": 272,
+          "triangles_evaluated": 540,
+          "collision": true
+        },
+        {
+          "name": "traffic_construction__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_construction__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_construction__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_construction.png": "b2175540cf512426b2cc49f995d90d4e952d9d77fdfdaf04d1184c4ca3768fcc"
+      }
+    },
+    "traffic_intersection": {
+      "model": "autorace_traffic_intersection_v014",
+      "pose": "2.233480 -1.145374 0.125000 0.000000 -0.000000 0.000000",
+      "source_plate_matrix_world": [
+        [
+          0.9999998807907104,
+          0.0,
+          0.0,
+          1.9500000476837158
+        ],
+        [
+          0.0,
+          0.9999998807907104,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.125,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.0597841739654541,
+          -0.014000000432133675,
+          -0.125
+        ],
+        [
+          0.0576259009540081,
+          0.012500000186264515,
+          0.11867514997720718
+        ]
+      ],
+      "front_normal_local": [
+        -6.288943269604092e-05,
+        -0.9999999980224596,
+        0.0
+      ],
+      "parts": [
+        {
+          "name": "traffic_intersection__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_intersection__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__Plate_v006",
+          "vertices_evaluated": 240,
+          "triangles_evaluated": 476,
+          "collision": true
+        },
+        {
+          "name": "traffic_intersection__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_intersection__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_intersection__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_intersection.png": "ee21c22e860d71fcd8902e3879655a68797af0037b6cd5639746051c6aff2383"
+      }
+    },
+    "traffic_noentry": {
+      "model": "autorace_traffic_noentry_v014",
+      "pose": "1.088106 -0.868194 0.125000 0.000000 -0.000000 -3.141593",
+      "source_plate_matrix_world": [
+        [
+          -0.9999998807907104,
+          1.5099578831723193e-07,
+          0.0,
+          0.9500000476837158
+        ],
+        [
+          -1.5099578831723193e-07,
+          -0.9999998807907104,
+          0.0,
+          -0.7580000162124634
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.125,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.05576470969715092,
+          -0.013999916590734228,
+          -0.125
+        ],
+        [
+          0.05532352523407993,
+          0.012500084027664787,
+          0.12332551926374435
+        ]
+      ],
+      "front_normal_local": [
+        2.5820480701969136e-05,
+        -0.9999999996664506,
+        6.338504282534475e-07
+      ],
+      "parts": [
+        {
+          "name": "traffic_noentry__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_noentry__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__Plate_v006",
+          "vertices_evaluated": 1024,
+          "triangles_evaluated": 2044,
+          "collision": true
+        },
+        {
+          "name": "traffic_noentry__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_noentry__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_noentry__RearPlate_v008",
+          "vertices_evaluated": 1024,
+          "triangles_evaluated": 2044,
+          "collision": true
+        },
+        {
+          "name": "traffic_noentry__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_noentry.png": "efb4de013fb2be7f35a93aa317065e1c11c5e6261354d4e879b907c6f6ac39ac"
+      }
+    },
+    "traffic_parking": {
+      "model": "autorace_traffic_parking_v014",
+      "pose": "0.847577 2.233480 0.130000 0.000000 -0.000000 1.570796",
+      "source_plate_matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          0.7399999499320984
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          1.9500000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.12999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.12999999523162842,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.05492641405362164,
+          -0.013999972420506879,
+          -0.12999999523162842
+        ],
+        [
+          0.052720643569049486,
+          0.01250002819789131,
+          0.1196102425456047
+        ]
+      ],
+      "front_normal_local": [
+        -3.228493742820244e-05,
+        -0.9999999994788413,
+        1.5160464769144644e-11
+      ],
+      "parts": [
+        {
+          "name": "traffic_parking__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_parking__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__Plate_v006",
+          "vertices_evaluated": 272,
+          "triangles_evaluated": 540,
+          "collision": true
+        },
+        {
+          "name": "traffic_parking__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_parking__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_parking__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_parking.png": "087665f76e706ebe6ea78bcf6b2e608e933aea5241ba1eb895da5e8d075fb03c"
+      }
+    },
+    "traffic_pl_left": {
+      "model": "autorace_traffic_pl_left_v014",
+      "pose": "0.572687 2.176211 0.130000 0.000000 -0.000000 0.000000",
+      "source_plate_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.1599999964237213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.1599999964237213,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.056205883622169495,
+          -0.014000000432133675,
+          -0.12999999523162842
+        ],
+        [
+          0.05488235130906105,
+          0.012500000186264515,
+          0.12451470643281937
+        ]
+      ],
+      "front_normal_local": [
+        2.5820445388691813e-05,
+        -0.9999999996664515,
+        6.337620698827431e-07
+      ],
+      "parts": [
+        {
+          "name": "traffic_pl_left__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_pl_left__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__Plate_v006",
+          "vertices_evaluated": 1024,
+          "triangles_evaluated": 2044,
+          "collision": true
+        },
+        {
+          "name": "traffic_pl_left__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_pl_left__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_pl_left__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_pl_left.png": "2887420eb4bf046983002d6f190a2b8c7fbbe1f41bf93b38ae7a76398855133f"
+      }
+    },
+    "traffic_stop": {
+      "model": "autorace_traffic_stop_v014",
+      "pose": "-1.546255 1.191189 0.125000 0.000000 -0.000000 -1.570796",
+      "source_plate_matrix_world": [
+        [
+          7.549790126404332e-08,
+          1.0,
+          0.0,
+          -1.350000023841858
+        ],
+        [
+          -1.0,
+          7.549790126404332e-08,
+          0.0,
+          1.0399999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.125,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.04846152052105879,
+          -0.014000041123608753,
+          -0.125
+        ],
+        [
+          0.04753848031340624,
+          0.012499959494789437,
+          0.11081574112176895
+        ]
+      ],
+      "front_normal_local": [
+        -0.00043661721014022254,
+        -0.9999999045576594,
+        1.581403730254595e-05
+      ],
+      "parts": [
+        {
+          "name": "traffic_stop__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_stop__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__Plate_v006",
+          "vertices_evaluated": 208,
+          "triangles_evaluated": 412,
+          "collision": true
+        },
+        {
+          "name": "traffic_stop__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_stop__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_stop__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "traffic_stop.png": "ca7fde3fcbd5b886fe8ae4776418e07b88fdbc24014a5879c5ed614ca4d4ee01"
+      }
+    },
+    "traffic_tunnel": {
+      "model": "autorace_traffic_tunnel_v014",
+      "pose": "-1.768458 0.000000 0.125000 0.000000 -0.000000 -3.141593",
+      "source_plate_matrix_world": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          -1.5440000295639038
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.1549999862909317
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_origin_z_m": 0.1549999862909317,
+      "sim_ground_z_m": 0.0,
+      "local_bounds_m": [
+        [
+          -0.047718122601509094,
+          -0.014000000432133675,
+          -0.125
+        ],
+        [
+          0.05053691193461418,
+          0.012500000186264515,
+          0.0990385189652443
+        ]
+      ],
+      "front_normal_local": [
+        -2.270586926785549e-05,
+        -0.9999999997422218,
+        0.0
+      ],
+      "parts": [
+        {
+          "name": "traffic_tunnel__Base_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_tunnel__Bolt_0_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__Bolt_0_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__Bolt_1_0_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__Bolt_1_1_v006",
+          "vertices_evaluated": 144,
+          "triangles_evaluated": 284,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__Plate_v006",
+          "vertices_evaluated": 200,
+          "triangles_evaluated": 396,
+          "collision": true
+        },
+        {
+          "name": "traffic_tunnel__Post_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        },
+        {
+          "name": "traffic_tunnel__RearClamp_0_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__RearClamp_1_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": false
+        },
+        {
+          "name": "traffic_tunnel__Socket_v006",
+          "vertices_evaluated": 96,
+          "triangles_evaluated": 188,
+          "collision": true
+        }
+      ],
+      "textures": {
+        "tunnel.png": "8a33e53d591f67fabd1ef4d790ff392421b157a992da58a015af75b32a6fa0da"
+      }
+    }
+  }
+}

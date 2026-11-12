@@ -1,0 +1,23 @@
+# Original revisions of the source snapshots included in this repository.
+# Source files are tracked directly; git submodules are not required.
+repositories:
+  src/DynamixelSDK:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+    version: 59abd67d1f16a199cf0c8608231aee6bb63a57f3
+  src/camera_ros:
+    type: git
+    url: https://github.com/12941516/camera_ros.git
+    version: daf9fd3c2890f5a15f697d5914f1685bae51ef56
+  src/turtlebot3:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+    version: 90a68bd2e3c61c12966779da89d8eeaec82730e9
+  src/turtlebot3_msgs:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+    version: cdee60f7618b9ed2f85f65259c0f96e3f02b1c55
+  src/turtlebot3_simulations:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    version: a35a56c8b04877dc89772b598084d8ce648a9023

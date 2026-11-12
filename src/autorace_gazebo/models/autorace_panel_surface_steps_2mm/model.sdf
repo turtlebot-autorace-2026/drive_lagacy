@@ -1,0 +1,919 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.7">
+  <model name="autorace_panel_surface_steps_2mm">
+    <static>true</static>
+    <pose>0 0 0 0 0 -3.14</pose>
+    <link name="Panel_R01_C01">
+      <pose>-1.71806167 1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R01_C01__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C01__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C01__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C01__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C01__Road_01_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C01__Road_01_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C01__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R01_C02">
+      <pose>-0.572687225 1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R01_C02__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C02__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C02__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C02__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C02__Road_01_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C02__Road_01_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C02__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R01_C03">
+      <pose>0.572687225 1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R01_C03__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C03__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C03__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C03__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R01_C04">
+      <pose>1.71806167 1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R01_C04__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C04__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R01_C04__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R01_C04__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R01_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R02_C01">
+      <pose>-1.71806167 0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R02_C01__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C01__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R02_C01__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C01__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R02_C02">
+      <pose>-0.572687225 0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R02_C02__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C02__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R02_C02__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C02__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R02_C03">
+      <pose>0.572687225 0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R02_C03__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C03__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R02_C03__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C03__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R02_C04">
+      <pose>1.71806167 0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R02_C04__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C04__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R02_C04__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R02_C04__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R02_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R03_C01">
+      <pose>-1.71806167 -0.572687225 0.001 0 0 0</pose>
+      <visual name="Panel_R03_C01__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C01__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R03_C01__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C01__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R03_C02">
+      <pose>-0.572687225 -0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R03_C02__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C02__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R03_C02__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C02__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R03_C02__Road_01_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C02__Road_01_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C02__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R03_C03">
+      <pose>0.572687225 -0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R03_C03__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C03__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R03_C03__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C03__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R03_C04">
+      <pose>1.71806167 -0.572687225 0 0 0 0</pose>
+      <visual name="Panel_R03_C04__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C04__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R03_C04__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R03_C04__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R03_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R04_C01">
+      <pose>-1.71806167 -1.71806167 0.002 0 0 0</pose>
+      <visual name="Panel_R04_C01__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C01__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C01__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R04_C01__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C01__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C01__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R04_C02">
+      <pose>-0.572687225 -1.71806167 0.001 0 0 0</pose>
+      <visual name="Panel_R04_C02__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C02__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C02__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R04_C02__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C02__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C02__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R04_C03">
+      <pose>0.572687225 -1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R04_C03__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C03__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R04_C03__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C03__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R04_C03__Road_01_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C03__Road_01_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C03__Road_01.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    <link name="Panel_R04_C04">
+      <pose>1.71806167 -1.71806167 0 0 0 0</pose>
+      <visual name="Panel_R04_C04__Base_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C04__Base_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C04__Base.dae</uri>
+            <scale>1.14537445 1.14537445 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="Panel_R04_C04__Road_00_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="Panel_R04_C04__Road_00_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/Panel_R04_C04__Road_00.dae</uri>
+            <scale>1.14537445 1.14537445 0.0166666667</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.6</mu>
+              <mu2>0.6</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+  </model>
+</sdf>
